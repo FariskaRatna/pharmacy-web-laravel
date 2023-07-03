@@ -1,0 +1,23 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.logo img {
+    padding-left: 20px;
+    width: 200px;
+}
+
+nav {
+    z-index: 1000;
+    display: flex;
+    padding: 10px 0;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #B4F2F1;
+}
+
+.logo img {
+    padding-left: 20px;
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.login-box {
+    /* text-align: center; */
+    top: 50%;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}

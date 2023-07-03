@@ -1,0 +1,26 @@
+.colortext {
+    text-decoration: none;
+    color: #5479f7;
+}
+
+/* .hero {
+    width: 100%;
+    background-image: url("assets/vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.hero img {
+    top: 180px;
+    left: 50px;
+    z-index: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.hero .opening {
+    position: relative;
+    z-index: 10000;
+}
+
